@@ -1,0 +1,29 @@
+{
+  "name": "HA-GPT Telegram bot",
+  "version": "0.0.1",
+  "slug": "ha-gpt",
+  "description": "Home Assistant GPT integration through Telegram Bot",
+  "url": "https://github.com/vermi0ffh/ha-gpt/tree/main/ha-gpt",
+  "startup": "application",
+  "stage": "stable",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "default",
+  "homeassistant_api": true,
+  "options": {
+    "telegram_token": "",
+    "openapi_key": ""
+  },
+  "schema": {
+    "telegram_token": "str",
+    "openapi_key": "str"
+  },
+  "image": "vermi0ffh/ha-gpt-{arch}"
+}

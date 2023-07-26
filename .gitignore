@@ -1,0 +1,6 @@
+.env
+node_modules
+database.sqlite
+.idea
+build.env
+options.json
